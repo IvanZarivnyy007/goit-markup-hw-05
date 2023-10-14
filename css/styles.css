@@ -895,7 +895,7 @@ position: relative;
 }
 
 .textarea--div
-    /* margin-bottom: 16px; */
+margin-bottom: 16px;
 
 .textarea-class:hover{
     border-color: #4D5AE5;
