@@ -905,7 +905,7 @@ pointer-events: none; */
     border: 1px solid var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
     margin-bottom: 8px;
 
-    /* display: flex; */
+    display: flex;
     width: 360px;
     height: 336px;
     flex-direction: column;
