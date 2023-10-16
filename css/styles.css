@@ -778,6 +778,12 @@ letter-spacing: 0.02em;
     align-items: center; 
     font-family: "Roboto", sans-serif ;
     /*========================================*/
+  
+    
+}
+
+
+.footer-new-icon{
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -787,7 +793,9 @@ letter-spacing: 0.02em;
     background-color: #4D5AE5;
     border: none; 
     border-radius: 4px;
-    
+
+
+
 }
 
 
