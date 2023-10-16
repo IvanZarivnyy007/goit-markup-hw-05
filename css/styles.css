@@ -754,7 +754,7 @@ letter-spacing: 0.02em;
 }
 
 .label-footer-new::placeholder{
-    color #ffffff;
+    color :#ffffff;
 
 
 }
@@ -905,7 +905,7 @@ pointer-events: none; */
     border: 1px solid var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
     margin-bottom: 8px;
 
-    display: flex;
+    /* display: flex; */
     width: 360px;
     height: 336px;
     flex-direction: column;
@@ -978,6 +978,10 @@ position: relative;
    
 }
 
+.textarea-class:focus-within + .checkbox_input {
+    border-color: #4D5AE5;;
+ }
+
 
 .textarea-div{
     margin-bottom: 16px;
@@ -1035,8 +1039,10 @@ position: relative;
 
 
 
-.checkbox_container{
-    margin-bottom: 24px;}
+.checkbox_container {
+    margin-bottom: 24px;
+
+}
   
   .checkbox_input_title {
     font-size: 12px;
