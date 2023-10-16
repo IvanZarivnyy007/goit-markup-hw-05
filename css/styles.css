@@ -905,7 +905,7 @@ pointer-events: none; */
     border: 1px solid var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
     margin-bottom: 8px;
 
-    display: flex;
+    /* display: flex; */
     width: 360px;
     height: 336px;
     flex-direction: column;
@@ -992,7 +992,7 @@ position: relative;
 
 
 
-.textarea-class{
+textarea-class.{
 
     width: 360px;
     height: 120px;
@@ -1011,8 +1011,8 @@ position: relative;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.container-textarea{
-
+.textarea-class:focus-within +.checkbox_input{
+    border-color: #4D5AE5; 
     
 }
 
