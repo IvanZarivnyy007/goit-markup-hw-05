@@ -965,6 +965,7 @@ pointer-events: none; */
 position: relative; 
   margin-bottom: 8px;
 }
+
 .container-icon-use{
     position: absolute;
     left: 16px;
@@ -978,7 +979,7 @@ position: relative;
    
 }
 
-.textarea-class:focus-within + .checkbox_input {
+.textarea-class:focus + .checkbox_input {
     border-color: #4D5AE5;;
  }
 
@@ -1040,7 +1041,7 @@ position: relative;
 
 
 .checkbox_container {
-    margin-bottom: 24px;
+margin-bottom: 24px;
 
 }
   
