@@ -979,7 +979,7 @@ position: relative;
    
 }
 
-.textarea-class:focus + .checkbox_input {
+.textarea-class:focus{
     border-color: #4D5AE5;;
  }
 
